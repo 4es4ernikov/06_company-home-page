@@ -1,0 +1,103 @@
+/*common*/
+html {
+    font-family:'Roboto', sans-serif;
+}
+
+/*header*/
+header {
+    display: flex;
+    background-color: rgb(40,39,38);
+    justify-content: space-between;
+    
+}
+header ul {
+    padding-right: 20px;
+}
+header ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    
+}
+header ul li a:hover  {
+    text-decoration: underline;
+    color: red;
+    
+}
+/*banner*/
+.banner {
+   
+    background-image:url(./berlin_city_01_skyline_unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    
+}
+.moto {
+    
+    border: 1px rgb(40,39,38) solid;
+    background-color: white;
+    padding: 30px;
+    margin: 200px 0 200px 0;
+    font-size: 1.4rem;
+    width: 100%;
+    color: rgb(232,41,39);
+}
+/*mission*/
+.mission {
+    display: flex;
+    background-color: rgb(40,39,38);
+    justify-content: space-around;
+    }
+.mission-text {
+    font-size: 1.4rem;;
+    color: white;
+    border: solid 1px rgb(251,213,68);
+    ;
+    margin: 20px;
+    padding: 50px;
+}
+/*testimonials*/
+.testimonials {
+    display: flex;
+    background-image: url(./füssen-bayern-deutschland-september-wide-angle-panorama-bavaria-germany-mountains-old-town-lake-forggen-river-189129282.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-around;
+    }
+.testimonial-text {
+    font-size: 1.2rem;
+    background-color: white;
+    color: rgb(232,41,39);
+    border: solid 1px rgb(40,39,38);
+    margin: 200px 20px 200px 20px;
+    padding: 50px;
+}
+/*footer*/
+footer {
+    display: flex;
+    background-color: rgb(40,39,38);
+    justify-content: flex-end;
+    padding: 70px;
+    
+}
+footer ul {
+    padding-right: 20px;
+}
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.1rem;
+
+}
